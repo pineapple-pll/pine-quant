@@ -1,0 +1,4 @@
+<select id="selectTest" resultType="stockDto">
+    SELECT 'GOD' AS NAME
+</select>
+
