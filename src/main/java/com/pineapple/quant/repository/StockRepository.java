@@ -14,7 +14,6 @@ public class StockRepository {
 
     private final EntityManager em;
 
-
     public List<Stock> findAll(String stockName){
         String jpql = "SELECT b FROM :stockName b";
         Query query = em.createQuery(jpql);
